@@ -1,0 +1,68 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Manrope;
+}
+.above{
+    width: 100%;
+    padding:1.5rem 3rem;
+}
+
+
+.brand-logo{
+width:12%;
+height:auto
+}
+.top{
+   display:flex; 
+   justify-content:space-evenly;
+   align-items: center;
+   font-size: 14px;
+   color: #636363;
+}
+.pics {
+    width: 1rem;
+    height: auto;
+}
+ .list {
+display: flex;
+justify-content: space-between;
+ }
+ul{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+li{
+list-style: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: transparent;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .check {
+    width: 1rem;
+    height: auto;
+  }
+  .dashboard {
+ width: 80%;
+ height: auto;
+  }
